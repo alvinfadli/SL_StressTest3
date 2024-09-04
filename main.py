@@ -56,7 +56,6 @@ def drawPattern(total):
 
         #calculating the width of the inner rectangle
         innerRectangle_pos_end = radius + (radius * math.sin(45*(math.pi/180)))
-
         innerRectangle_size = innerRectangle_pos_end - innerRectangle_start_pos_x + old_inner
 
         pygame.draw.rect(screen, "purple", pygame.Rect(innerRectangle_start_pos_x,innerRectangle_start_pos_y, innerRectangle_size, innerRectangle_size), width=1)
